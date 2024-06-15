@@ -42,5 +42,7 @@ public class LearnMap {
         number.put("four", 4);
 
         System.out.println(number);
+
+        number.remove("three");
     }
 }
