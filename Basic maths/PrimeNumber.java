@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class PrimeNumber {
     static void PrintDivisors(int N){
         int count=0;
-        for(int i=1;i<=(int)Math.sqrt(N);i++){
+        for(int i=1;i*i<=N;i++){
             if(N%i==0) {
                 count++;
                 if((N/2) != i){
