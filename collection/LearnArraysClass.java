@@ -18,7 +18,7 @@ public class LearnArraysClass {
 
         Arrays.fill(arr, 14); // it replace all element with given element
 
-        // traversal
+        // traversal of Arrays
         for(int i:arr){
             System.out.println(i+" ");
         }
