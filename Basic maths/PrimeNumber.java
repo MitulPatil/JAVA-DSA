@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class PrimeNumber {
-    static void PrintDivisors(int N){
+    static void PrintPrime(int N){
         int count=0;
         for(int i=1;i*i<=N;i++){
             if(N%i==0) {
@@ -18,7 +18,7 @@ public class PrimeNumber {
         System.out.print("enter number");
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        PrintDivisors(N);
+        PrintPrime(N);
         sc.close();
     }
 }
