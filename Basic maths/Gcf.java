@@ -8,6 +8,7 @@ public class Gcf {
         }
         if(N1==0) return N2;
         return N1;
+        
     }
     public static void main(String[] args) {
         System.out.print("enter number");
